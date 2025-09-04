@@ -1,19 +1,15 @@
 "use client"
 import React, { useState } from 'react';
 import { 
-  Droplets, 
   Bot, 
   Menu, 
   X, 
   ChevronRight, 
   Play,
   MessageCircle,
-  BarChart3,
   TrendingUp,
   MapPin,
   Shield,
-  Clock,
-  Users,
   Mail,
   Phone,
   Facebook,
@@ -21,7 +17,7 @@ import {
   Linkedin,
   Instagram,
   ArrowRight,
-  CheckCircle,
+
   Activity,
   Database,
   Eye
@@ -116,7 +112,7 @@ const HomePage = () => {
           <div className="flex-1 p-4 overflow-y-auto bg-gray-50">
             <div className="space-y-4">
               <div className="bg-white p-4 rounded-lg shadow-sm border">
-                <p className="text-sm text-gray-700">👋 Hello! I'm your water data assistant. I can help you with:</p>
+                <p className="text-sm text-gray-700">{`👋 Hello! I'm your water data assistant. I can help you with:`}</p>
                 <ul className="mt-2 text-xs text-gray-600 space-y-1">
                   <li>• Groundwater levels by taluka</li>
                   <li>• Historical trend analysis</li>

@@ -222,7 +222,7 @@ export default function ChatUI() {
               </div> */}
             </div>
             <div style={styles.welcomeText}>
-              <h1 style={styles.mainTitle}>What's on your mind today?</h1>
+              <h1 style={styles.mainTitle}>{`What's on your mind today?`}</h1>
               <p style={styles.subtitle}>Hey there! What can I do for you?</p>
             </div>
           </div>
