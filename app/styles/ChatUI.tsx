@@ -1,4 +1,6 @@
-export const styles = {
+
+
+export const styles ={
     container: {
       height: '100vh',
       backgroundColor: '#ffffff',
