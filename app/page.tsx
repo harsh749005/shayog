@@ -164,7 +164,7 @@ const HomePage = () => {
                 {/* <Droplets className="w-6 h-6 text-white" /> */}
               </div>
               <div>
-                <h1 className="text-xl text-gray-900 font-poppins font-bold capitalize cursor-pointer">Shayog</h1>
+                <h1 className="text-xl text-gray-900 font-poppins font-bold capitalize cursor-pointer">SAHYOG</h1>
                 <p className="text-xs text-gray-500">Groundwater Intelligence Platform</p>
               </div>
             </div>
@@ -361,7 +361,7 @@ const HomePage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 bg-gradient-to-r from-blue-600 to-cyan-600">
+      {/* <section className="py-24 bg-gradient-to-r from-blue-600 to-cyan-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
             Ready to Transform Water Management?
@@ -378,7 +378,7 @@ const HomePage = () => {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white">
@@ -390,7 +390,7 @@ const HomePage = () => {
                                   <Image src="/logo.png" alt="Logo" width={200} height={200} style={{borderRadius:"50px"}}/>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold">Gujarat Water Monitor</h3>
+                  <h3 className="text-xl font-bold">SAHYOG</h3>
                   <p className="text-gray-400 text-sm">Groundwater Intelligence Platform</p>
                 </div>
               </div>
