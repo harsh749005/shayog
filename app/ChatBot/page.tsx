@@ -1,9 +1,9 @@
 'use client'
 import React, { useState } from "react";
-import { Plus, Search, Database, AudioLines, Phone, Image } from "lucide-react";
+import { Plus, Search, Database, AudioLines, Phone, ImageIcon } from "lucide-react";
 // import Logo from "./assets/logo.png";
 import { styles } from "../styles/ChatUI";
-import img from "next/image";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 export default function ChatUI() {
@@ -55,7 +55,7 @@ export default function ChatUI() {
         }}
       >
         <div style={{ display: "flex", alignItems: "center" }}>
-          <img src='/logo.png' width={55} height={55} />
+          <Image src='/logo.png' width={55} height={55} alt="logo"/>
           <div>
             <span
               style={{
@@ -99,7 +99,7 @@ export default function ChatUI() {
                 justifyContent: "center",
               }}
             >
-              <Image size={18} color="#6c757d" />
+              <ImageIcon size={18} color="#6c757d" />
             </div>
             <span style={{ fontSize: "14px",color:"black" }}>Search by image</span>
           </div>
@@ -207,7 +207,7 @@ export default function ChatUI() {
                 alignItems: "center",
               }}
             >
-          <img src='/logo.png' width={130} height={130} />
+          <Image src='/logo.png' width={130} height={130} alt="logo"/>
               {/* <div>
                 <span
                   style={{
